@@ -1,0 +1,46 @@
+/*Custom Style*/
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    background: #f9f9f9;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #E3E3E3;
+    border-radius: 0px;
+    box-shadow: none !important;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+.contact-form textarea {
+    height: 170px;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #666;
+    background: #f4f6fa;
+}
+
+.contact-form .wpcf7-form-control.wpcf7-submit {
+    background-color: #3756f7;
+    color: #fff;
+    display: inline-block;
+    width: auto;
+}
+
+.contact-form .wpcf7-form-control.wpcf7-submit:hover {
+    background-color: #1839dc;
+    color: #fff;
+}
+
+.form-style-2 .contact-form .wpcf7-form-control.wpcf7-submit {
+    display: block;
+    width: 100%;
+}
+
+.contact-form .wpcf7 label {
+    display: block;
+}
